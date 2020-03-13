@@ -1,0 +1,15 @@
+{
+  "name": "trail-test",
+  "version": "1.0.0",
+  "description": "A simple test to show the usage of @nearform/trail-core",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@nearform/trail-core": "^2.0.0"
+  }
+}

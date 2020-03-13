@@ -14,8 +14,10 @@ npm install @nearform/trail-core
 
 ## Usage
 
+Setup your /config directory with defaults or per enviornment 
+
 ```javascript
-const {TrailsManager} = require('@nearform/trail')
+const {TrailsManager} = require('@nearform/trail-core')
 
 const main = async function() {
   const manager = new TrailsManager()
@@ -29,6 +31,8 @@ const main = async function() {
 
 main().catch(console.error)
 ```
+
+You can see an example in [/example]
 
 ## The trail object
 
